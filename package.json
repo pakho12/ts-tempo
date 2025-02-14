@@ -2,6 +2,7 @@
   "name": "@pakho12/ts-tempo",
   "type": "module",
   "version": "1.0.0",
+  "private": false,
   "packageManager": "pnpm@10.4.0",
   "author": {
     "name": "pakho12",
@@ -10,7 +11,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pakho12/ts-tempo"
+    "url": "git+https://github.com/pakho12/ts-tempo.git"
   },
   "keywords": [
     "ts",
