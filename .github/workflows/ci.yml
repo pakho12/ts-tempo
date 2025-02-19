@@ -50,11 +50,12 @@ jobs:
         with:
           fetch-depth: 0
           ref: main
-      - name: Use Node.js v20
-        uses: actions/setup-node@v4
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v3
+      - uses: actions/setup-node@v4
         with:
-          node-version: 20
-          cache: yarn
+          node-version: lts/*
+          cache: pnpm
       - name: Configure Git
         run: |
           git remote set-url origin "https://${GITHUB_TOKEN}:x-oauth-basic@github.com/${GITHUB_REPOSITORY}.git"
