@@ -42,7 +42,6 @@ jobs:
       - name: Typecheck
         run: pnpm run typecheck
 
-
   changelog:
     name: Generate changelog
     runs-on: ubuntu-latest
