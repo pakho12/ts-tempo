@@ -69,4 +69,3 @@ jobs:
         run: npx @favware/cliff-jumper
         env:
           GITHUB_TOKEN: ${{ secrets.BOT_TOKEN }}
-  
