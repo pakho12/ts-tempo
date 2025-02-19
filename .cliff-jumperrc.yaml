@@ -1,0 +1,6 @@
+name: '@pakho12/ts-tempo'
+packagePath: .
+pushTag: true
+gitRepo: pakho12/ts-tempo
+githubRelease: true
+githubReleaseLatest: true
