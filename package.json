@@ -99,7 +99,7 @@
     "github": {
       "release": true,
       "autoGenerate": true,
-      "assets": "dist/*.txt"
+      "assets": ["dist/*.txt"]
     },
     "npm": {
       "publish": true,
