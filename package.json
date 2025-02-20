@@ -98,8 +98,7 @@
     },
     "github": {
       "release": true,
-      "autoGenerate": true,
-      "assets": ["dist/*.txt"]
+      "autoGenerate": true
     },
     "npm": {
       "publish": true,
