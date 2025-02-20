@@ -7,14 +7,14 @@ export default {
     tagAnnotation: 'v${version}',
     push: true,
     tagName: 'v${version}',
+  },
+  github: {
+    release: true,
+    // autoGenerate: true,
     releaseNotes(context) {
       // Remove the first, redundant line with version and date.
       return context.changelog.split('\n').slice(1).join('\n')
     },
-  },
-  github: {
-    release: true,
-    autoGenerate: true,
   },
   npm: {
     publish: true,
