@@ -49,12 +49,13 @@
     "semantic-release": "semantic-release",
     "prepare": "husky",
     "version": "changeset version",
-    "publish": "changeset publish",
-    "@changesets/changelog-github": "^0.5.0",
-    "@changesets/cli": "^2.27.12"
+    "publish": "changeset publish"
   },
   "devDependencies": {
+
     "@antfu/eslint-config": "^4.2.0",
+    "@changesets/changelog-github": "^0.5.0",
+    "@changesets/cli": "^2.27.12",
     "@commitlint/cli": "^19.7.1",
     "@commitlint/config-conventional": "^19.7.1",
     "@commitlint/prompt-cli": "^19.7.1",
