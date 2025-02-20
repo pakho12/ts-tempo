@@ -97,7 +97,9 @@
       "tagName": "v${version}"
     },
     "github": {
-      "release": true
+      "release": true,
+      "autoGenerate": true,
+      "assets": "dist/*.txt"
     },
     "npm": {
       "publish": true,
